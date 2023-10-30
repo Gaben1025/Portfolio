@@ -27,6 +27,15 @@ header footer {
   font-family: Gill Sans, sans-serif;
 }
 
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
 body {
   background-color: #87a9ba;
 }
@@ -51,19 +60,14 @@ footer {
 div.center {
   margin: auto;
   width: 50%;
-  border: 3px solid green;
+  border: 3px solid black;
   padding: 10px;
 }
 
 p.center {
   margin: auto;
-  width: 10%;
-  padding: 10px;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: xx-large;
+  width: 50%;
+  padding: 5px;
 }
 
 p {
@@ -97,4 +101,23 @@ p {
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+a:link {
+  color: #0610a2;
+}
+
+/* visited link */
+a:visited {
+  color: #642ce8;
+}
+
+/* mouse over link */
+a:hover {
+  color: #04b49f;
+}
+
+/* selected link */
+a:active {
+  color: #4b0101;
 }
